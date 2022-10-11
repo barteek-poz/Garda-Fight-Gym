@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/queries.css">
+    <title>Garda Fight Gym</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-logo">
+            <p>Garda <span>Fight</span> Gym</p>
+        </div>
+        <div class="nav-items">
+            <a href="#about-us">O nas</a>
+            <a href="#dyscyplines">Zajęcia</a>
+            <a href="#schedule">Grafik</a>
+            <a href="#prices">Cennik</a>
+            <a href="#contact">Kontakt</a>
+        </div>
+        <button class="hamburger active">
+            <div class="bar"></div>
+        </button>
+    </nav>
+    <nav class="mobile-nav active">
+        <a href="#about-us">O nas</a>
+        <a href="#dyscyplines">Zajęcia</a>
+        <a href="#schedule">Grafik</a>
+        <a href="#prices">Cennik</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    <section class="hero">
+        <div class="hero-text">Najlepszy klub sportów walki w Twoim mieście. Nie czekaj, zacznij z nami trenować już
+            dziś!</div>
+        <div class="hero-btn">
+            <a class="hero-about-btn" href="#about-us">Kim jesteśmy</a>
+            <a class="hero-price-btn" href="#prices">Zacznij trenować</a>
+        </div>
+    </section>
+
+    <section id="about-us" class="about-us">
+
+        <div class="about-us-text">
+            <div class="about-us-head">O nas</div>
+            <div class="about-us-info">
+                <p>Garda <span>Fight</span> Gym to jeden z największych klubów sportów walki w mieście. Specjalizujemy
+                    się w takich dyspcyplinach jak boks, brazylijskie jiu-jitsu czy zapasy. Nasi trenerzy to wielokrotni
+                    mistrzowie kraju i medaliści zawodów na arenie międzynarodowej, ale przede wszystkich świetni
+                    nauczyciele, którzy w praktyczny sposób potrafią przekazać wiedzę zdobywaną przez lata na macie. Nie
+                    czekaj - przekonaj się o tym na własnej skórze.</p>
+            </div>
+        </div>
+        <img class="about-us-img" src="./img/fighters.jpg" alt="fighters at ring">
+    </section>
+    <section class="dysciplines" id="dyscyplines">
+        <p class="dyscyplines-head">Zajęcia</p>
+        <div class="dyscyplines-container">
+            <div class="dyscyplines-boxing">
+                <img class="dyscyplines-img" src="./img/box.jpg" alt="boxers on ring">
+                <div class="dyscyplines-text"><span>Boks</span> to jeden z najpopularniejszych sportów walki. Trenowany
+                    od stuleci, pozwala na opanowanie umiejętności pozwalających walczyć w stójce. Opiera się na ataku
+                    pięściami i obronie przed uderzeniami za pomocą uników i gardy</div>
+            </div>
+            <div class="dyscyplines-bjj">
+                <img class="dyscyplines-img" src="./img/bjj.jpg" alt="bjj fighter">
+                <div class="dyscyplines-text"><span>Brazylijskie jiu-jitsu</span> to coraz popularniejsza dyscyplina
+                    sportu walki. Wywodzi się z brazylijskich faweli i skupia się na walce w parterze. Rozróżnia się
+                    dwie formy treningu, klasycznie w kimonach zwanych gi, oraz bez kimon, czyli no-gi.</div>
+            </div>
+            <div class="dyscyplines-wrestling">
+                <img class="dyscyplines-img" src="./img/wrestling.jpg" alt="wrestling match">
+                <div class="dyscyplines-text"><span>Zapasy</span> wywodzą się aż z antycznej Grecji, gdzie były jedną z
+                    najważniejszych dyscyplin Olimpiady. Zapasy uważane są za jedną z najcięższych dyscyplin sportów
+                    walki, która w zamian daje niesamowite efekty</div>
+            </div>
+        </div>
+
+        <section class="schedule" id="schedule">
+            <div class="schedule-head">
+                <p>Grafik</p>
+                <div class="schedule-legend">
+                    <p><span>pro</span> grupa PRO</p>
+                    <p> <span>Z</span> grupa zaawansowana</p>
+                    <p><span>P</span> grupa początkująca</p>
+                </div>
+            </div>
+            <div class="schedule-container">
+                <div class="schedule-day">
+                    <div class="schedule-day-head">
+                        <p>Poniedziałek</p>
+                    </div>
+                    <ul class="schedule-day-info">
+                        <li>8:00-9:30 <span>Zapasy <p>pro</p></span></li>
+                        <li>10:00-11:30 <span>Boks <p>pro</p> </span></li>
+                        <li>11:00-12:30 <span>BJJ <p>pro</p> </span></li>
+                        <li>14:00-15:30 <span>Boks <p>Z</p></span></li>
+                        <li>15:00-16:30 <span>Zapasy <p>Z</p></span></li>
+                        <li>15:30-17:00<span>BJJ <p>Z</p> </span></li>
+                        <li>17:00-18:00 <span>Boks <p>P</p></span></li>
+                        <li>18:00-19:00 <span>BJJ <p>P</p></span></li>
+                        <li>19:00-20:00 <span>Zapasy <p>P</p></span></li>
+                    </ul>
+                </div>
+                <div class="schedule-day">
+                    <div class="schedule-day-head">
+                        <p>Wtorek</p>
+                    </div>
+                    <ul class="schedule-day-info">
+                        <li>8:00-9:30 <span>Boks <p>pro</p></span></li>
+                        <li>10:00-11:30 <span>BJJ <p>pro</p> </span></li>
+                        <li>11:00-12:30 <span>Zapasy <p>pro</p> </span></li>
+                        <li>14:00-15:30 <span>Zapasy <p>Z</p></span></li>
+                        <li>15:00-16:30 <span>BJJ <p>Z</p></span></li>
+                        <li>15:30-17:00<span>Boks <p>Z</p> </span></li>
+                        <li>17:00-18:00 <span>BJJ <p>P</p></span></li>
+                        <li>18:00-19:00 <span>Zapasy <p>P</p></span></li>
+                        <li>19:00-20:00 <span>Boks<p>P</p></span></li>
+                    </ul>
+                </div>
+                <div class="schedule-day">
+                    <div class="schedule-day-head">
+                        <p>Środa</p>
+                    </div>
+                    <ul class="schedule-day-info">
+                        <li>8:00-9:30 <span>Zapasy <p>pro</p></span></li>
+                        <li>10:00-11:30 <span>Boks <p>pro</p> </span></li>
+                        <li>11:00-12:30 <span>BJJ <p>pro</p> </span></li>
+                        <li>14:00-15:30 <span>Boks <p>Z</p></span></li>
+                        <li>15:00-16:30 <span>Zapasy <p>Z</p></span></li>
+                        <li>15:30-17:00<span>BJJ <p>Z</p> </span></li>
+                        <li>17:00-18:00 <span>Boks <p>P</p></span></li>
+                        <li>18:00-19:00 <span>BJJ <p>P</p></span></li>
+                        <li>19:00-20:00 <span>Zapasy <p>P</p></span></li>
+                    </ul>
+                </div>
+                <div class="schedule-day">
+                    <div class="schedule-day-head">
+                        <p>Czwartek</p>
+                    </div>
+                    <ul class="schedule-day-info">
+                        <li>8:00-9:30 <span>Boks <p>pro</p></span></li>
+                        <li>10:00-11:30 <span>BJJ <p>pro</p> </span></li>
+                        <li>11:00-12:30 <span>Zapasy <p>pro</p> </span></li>
+                        <li>14:00-15:30 <span>Zapasy <p>Z</p></span></li>
+                        <li>15:00-16:30 <span>BJJ <p>Z</p></span></li>
+                        <li>15:30-17:00<span>Boks <p>Z</p> </span></li>
+                        <li>17:00-18:00 <span>BJJ <p>P</p></span></li>
+                        <li>18:00-19:00 <span>Zapasy <p>P</p></span></li>
+                        <li>19:00-20:00 <span>Boks<p>P</p></span></li>
+                    </ul>
+                </div>
+                <div class="schedule-day">
+                    <div class="schedule-day-head">
+                        <p>Piątek</p>
+                    </div>
+                    <ul class="schedule-day-info">
+                        <li>8:00-9:30 <span>Zapasy <p>pro</p></span></li>
+                        <li>10:00-11:30 <span>Boks <p>pro</p> </span></li>
+                        <li>11:00-12:30 <span>BJJ <p>pro</p> </span></li>
+                        <li>14:00-15:30 <span>Boks <p>Z</p></span></li>
+                        <li>15:00-16:30 <span>Zapasy <p>Z</p></span></li>
+                        <li>15:30-17:00<span>BJJ <p>Z</p> </span></li>
+                        <li>17:00-18:00 <span>Boks <p>P</p></span></li>
+                        <li>18:00-19:00 <span>BJJ <p>P</p></span></li>
+                        <li>19:00-20:00 <span>Zapasy <p>P</p></span></li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+    </section>
+    <section class="prices" id="prices">
+        <div class="prices-head">
+            <p>Cennik</p>
+        </div>
+        <div class="prices-container">
+            <div class="prices-begginer">
+                <div class="prices-type-head">
+                    <p>Początkujący</p>
+                    <span>100 PLN</span>
+                </div>
+                <ul class="prices-type-info">
+                    <li>Pakiet obejmuje 1 dyscyplinę</li>
+                    <li>Możliwość treningu 1 raz dziennie</li>
+                    <li>Brak dostępu siłowni</li>
+                </ul>
+                <button class="order">Wybierz</button>
+            </div>
+            <div class="prices-advanced">
+                <div class="prices-type-head pro">
+                    <p>Zaawansowany</p>
+                    <span>150 PLN</span>
+                </div>
+                <ul class="prices-type-info">
+                    <li>Pakiet obejmuje 2 dyscypliny</li>
+                    <li>Możliwość treningu 2 razy dziennie</li>
+                    <li>Dostęp do klubowej siłowni</li>
+                </ul>
+                <button class="order">Wybierz</button>
+            </div>
+            <div class="prices-pro">
+                <div class="prices-type-head">
+                    <p>PRO</p>
+                    <span>199 PLN</span>
+                </div>
+                <ul class="prices-type-info">
+                    <li>Pakiet obejmuje 3 dyscypliny</li>
+                    <li>Treningi bez ograniczeń</li>
+                    <li>Dostęp do klubowej siłowni</li>
+                </ul>
+                <button class="order order-pro">Wybierz</button>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-head">
+            <p>Kontakt</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <input type="Text" placeholder="Imię" id="contact-name">
+                <input type="Text" placeholder="Mail" id="contact-mail">
+                <input type="Text" placeholder="Treść wiadomości" id="contact-text">
+                <button class="contact-btn">Wyślij</button>
+            </div>
+            <div class="contact-basic">
+                <p>Garda Fight Gym</p>
+                <p>ul. Miejska 34</p>
+                <p>00-210 Miasto</p>
+                <p>mail: gardafightgym@mail.com</p>
+                <p>tel: 092 222 666</p>
+            </div>
+    </section>
+
+    <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>

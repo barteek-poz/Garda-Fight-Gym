@@ -1,0 +1,590 @@
+@media (max-width: 1650px) {
+	.about-us-text {
+		font-size: 2rem;
+		padding: 4rem;
+	}
+	.prices-type-info {
+		font-size: 1.4rem;
+		list-style: none;
+		text-align: center;
+		line-height: 3;
+		padding: 1.6rem;
+	}
+}
+
+@media (max-width: 1550px) {
+	.about-us-text {
+		font-size: 1.8rem;
+		padding: 3.8rem;
+	}
+}
+
+@media (max-width: 1450px) {
+	.about-us-text {
+		font-size: 1.6rem;
+		padding: 3.2rem;
+	}
+
+	.about-us-img {
+		height: 50rem;
+		width: auto;
+		margin-right: 16rem;
+		border-radius: 30px;
+	}
+}
+
+@media (max-width: 1350px) {
+	.about-us-text {
+		font-size: 1.4rem;
+		padding: 3rem;
+	}
+
+	.about-us-img {
+		height: 45rem;
+		width: auto;
+		margin-right: 16rem;
+		border-radius: 30px;
+	}
+
+	.dyscyplines-wrestling .dyscyplines-text {
+		padding: 2rem 8rem 2rem 8rem;
+	}
+	.dyscyplines-boxing .dyscyplines-text {
+		padding: 2rem 9rem 2rem 9rem;
+	}
+	.prices-type-info {
+		font-size: 1.4rem;
+		padding: 1.6rem;
+	}
+
+	.schedule-container {
+		gap: 2rem;
+	}
+	.prices-begginer,
+	.prices-advanced,
+	.prices-pro {
+		width: 20%;
+	}
+}
+
+@media (max-width: 1250px) {
+	.prices-head {
+		font-size: 2.8rem;
+		padding: 2.4rem;
+	}
+	.prices-begginer,
+	.prices-advanced,
+	.prices-pro {
+		width: 20%;
+	}
+	.schedule-day-info {
+		font-size: 1.6rem;
+	}
+	.dyscyplines-img {
+		height: 28rem;
+		width: 28rem;
+		border-radius: 30px;
+	}
+	.dyscyplines-bjj .dyscyplines-text {
+		padding: 2rem 10rem 2rem 9rem;
+	}
+	.about-us-text {
+		font-size: 1.5rem;
+		padding: 1.4rem;
+	}
+	.about-us {
+		gap: 4rem;
+	}
+	.about-us-img {
+		height: 50rem;
+		width: auto;
+		margin-right: 10rem;
+		border-radius: 30px;
+	}
+	.prices-type-info {
+		font-size: 1.4rem;
+		padding: 1.6rem;
+	}
+}
+
+@media (max-width: 1200px) {
+	.about-us-img {
+		margin-right: 6rem;
+	}
+	.about-us-text {
+		margin-left: 8px;
+	}
+	.schedule-day-info {
+		font-size: 1.6rem;
+		padding: 1rem;
+	}
+	.dyscyplines-container {
+		padding: 2rem;
+	}
+	.dyscyplines-bjj .dyscyplines-text {
+		padding: 2rem 9rem 2rem 9rem;
+	}
+	.dyscyplines-wrestling .dyscyplines-text {
+		padding: 2rem 8rem 1rem 8rem;
+	}
+}
+
+@media (max-width: 1100px) {
+	.schedule-day-info {
+		font-size: 1.4rem;
+	}
+	.about-us-text {
+		margin-left: 6px;
+	}
+	.about-us-img {
+		margin-right: 1rem;
+	}
+	.schedule-day-info li {
+		gap: 2rem;
+	}
+	.dyscyplines-boxing .dyscyplines-text {
+		padding: 2rem 2rem 2rem 4.5rem;
+	}
+	.dyscyplines-bjj .dyscyplines-text {
+		padding: 2rem 2rem 2rem 3rem;
+	}
+	.dyscyplines-wrestling .dyscyplines-text {
+		padding: 2rem 2rem 1rem 2rem;
+	}
+}
+
+@media (max-width: 1000px) {
+	.about-us {
+		padding: 2rem;
+		gap: 2rem;
+	}
+	.about-us-text {
+		font-size: 1.4rem;
+		gap: 2rem;
+	}
+	.dyscyplines-boxing .dyscyplines-text {
+		padding: 2rem 6rem 2rem 6rem;
+	}
+
+	.dyscyplines-bjj .dyscyplines-text {
+		padding: 2rem 6rem 2rem 6rem;
+	}
+	.dyscyplines-wrestling .dyscyplines-text {
+		padding: 2rem 4rem 2rem 5rem;
+	}
+	.prices-container {
+		gap: 8rem;
+	}
+	.prices-begginer,
+	.prices-advanced,
+	.prices-pro {
+		width: 25%;
+	}
+	.hero-text {
+		display: flex;
+		font-size: 2.6rem;
+		margin: 0 20rem 0 20rem;
+	}
+}
+@media (max-width: 920px) {
+	.nav-items {
+		margin-right: 4rem;
+		gap: 2rem;
+	}
+	.about-us-img {
+		height: 40rem;
+	}
+
+	.dyscyplines-boxing .dyscyplines-text {
+		padding: 2rem 4rem 3rem 4rem;
+	}
+
+	.dyscyplines-bjj .dyscyplines-text {
+		padding: 2rem 4rem 2rem 4rem;
+	}
+	.nav-logo {
+		margin-left: 6rem;
+	}
+	.schedule-day-info {
+		font-size: 1.4rem;
+	}
+	.schedule-day-info li {
+		gap: 1rem;
+	}
+
+	.dyscyplines-img {
+		height: 26rem;
+		width: 26rem;
+	}
+	.schedule-legend span {
+		line-height: 1;
+		padding: 0.3rem;
+	}
+	.schedule-day-info p {
+		line-height: 1;
+		padding: 0.3rem;
+	}
+
+	.nav-items {
+		margin-right: 6rem;
+	}
+}
+
+@media (max-width: 850px) {
+	.nav-logo {
+		margin-left: 4rem;
+	}
+	.nav-items {
+		margin-right: 4rem;
+		gap: 2rem;
+	}
+	.dyscyplines-img {
+		height: 24rem;
+		width: 24rem;
+	}
+	.dyscyplines-wrestling .dyscyplines-text {
+		padding: 2rem 4rem 2rem 4rem;
+	}
+	.dyscyplines-boxing .dyscyplines-text {
+		padding: 2rem 4rem 2rem 4rem;
+	}
+	.schedule-container {
+		gap: 0rem;
+	}
+	.schedule-day-info {
+		font-size: 1.2rem;
+	}
+	.prices-container {
+		gap: 4rem;
+		justify-content: space-evenly;
+	}
+	.prices-begginer,
+	.prices-advanced,
+	.prices-pro {
+		width: 30%;
+	}
+	.prices-type-head {
+		font-size: 2rem;
+	}
+	.prices-type-head span {
+		font-size: 3.2rem;
+	}
+	.prices-type-info {
+		padding: 1.2rem;
+		font-size: 1.2rem;
+	}
+	.pro p {
+		background-color: red;
+		padding: 0.2rem;
+		color: #fff;
+		border-radius: 30px;
+	}
+
+	.about-us {
+		flex-direction: column;
+		margin-top: 2rem;
+	}
+	.about-us-text {
+		width: 50%;
+	}
+
+	.dyscyplines-container {
+		flex-direction: column;
+	}
+	.dyscyplines-boxing,
+	.dyscyplines-bjj,
+	.dyscyplines-wrestling {
+		flex-direction: row;
+	}
+	.dyscyplines-boxing:hover {
+		transform: translate(0, 0);
+	}
+	.dyscyplines-bjj:hover {
+		transform: translate(0, 0);
+	}
+	.dyscyplines-wrestling:hover {
+		transform: translate(0, 0);
+	}
+}
+@media (max-width: 700px) {
+	.nav-logo {
+		font-size: 3.2rem;
+		margin-left: 1rem;
+	}
+	.nav-items {
+		display: none;
+	}
+	.hero-text {
+		margin: 0 10rem 0 10rem;
+	}
+	.hero-btn {
+		flex-direction: column;
+		gap: 10rem;
+	}
+	.about-us-text {
+		width: 75%;
+	}
+	.schedule-legend {
+		gap: 1rem;
+	}
+	.schedule-legend p {
+		font-size: 2rem;
+	}
+	.schedule-container {
+		flex-direction: column;
+	}
+	.schedule-day-info {
+		line-height: 2;
+		padding: 0 4rem 2rem 4rem;
+	}
+	.schedule-day {
+		width: 50%;
+	}
+	.schedule-head p {
+		font-size: 1.6rem;
+		padding: 1rem;
+	}
+	.schedule-head > p {
+		font-size: 2.6rem;
+	}
+	.prices-type-head {
+		font-size: 1.6rem;
+	}
+	.prices-type-head span {
+		font-size: 2.8rem;
+	}
+	.prices-type-info {
+		padding: 1rem;
+		font-size: 1.2rem;
+	}
+	.prices-begginer,
+	.prices-advanced,
+	.prices-pro {
+		width: 30%;
+	}
+	.prices-container {
+		gap: 1rem;
+	}
+
+	.dyscyplines-text {
+		font-size: 1.6rem;
+	}
+
+	.contact-container {
+		width: 100%;
+	}
+
+	.hamburger {
+		display: block;
+	}
+	.schedule-day-info {
+		font-size: 1.8rem;
+	}
+}
+
+@media (max-width: 600px) {
+	.prices {
+		margin-top: 0rem;
+	}
+	.prices-type-info {
+		padding: 0.5rem;
+		font-size: 1rem;
+	}
+	.prices-type-head span {
+		font-size: 2.2rem;
+	}
+	.prices-type-head {
+		font-size: 1.4rem;
+	}
+
+	.prices-begginer,
+	.prices-advanced,
+	.prices-pro {
+		width: 30%;
+	}
+	.contact-head {
+		font-size: 2.6rem;
+	}
+	.contact-basic {
+		font-size: 1.8rem;
+	}
+	.hero-text {
+		margin: 0 6rem 0 6rem;
+	}
+	.prices-container {
+		justify-content: center;
+	}
+	.schedule-day {
+		width: 70%;
+	}
+}
+
+@media (max-width: 500px) {
+	.hero-text {
+		font-size: 2.4rem;
+	}
+	.about-us-img {
+		height: 35rem;
+	}
+	.about-us-text {
+		font-size: 1.2rem;
+	}
+	.about-us-head {
+		font-size: 2.6rem;
+	}
+	.about-us {
+		margin-bottom: 6rem;
+	}
+	.dyscyplines-text {
+		font-size: 1.4rem;
+	}
+	.dyscyplines-wrestling .dyscyplines-text {
+		padding: 4rem 2rem;
+	}
+	.dyscyplines-boxing .dyscyplines-text {
+		padding: 4rem 2rem;
+	}
+	.dyscyplines-bjj .dyscyplines-text {
+		padding: 4rem 2rem;
+	}
+	.schedule-day {
+		width: 70%;
+	}
+	.prices-container {
+		flex-direction: column;
+	}
+	.prices-begginer,
+	.prices-advanced,
+	.prices-pro {
+		width: 50%;
+	}
+	.prices-type-info {
+		padding: 1rem;
+		font-size: 1.4rem;
+	}
+	.prices-type-head span {
+		font-size: 2.6rem;
+	}
+	.prices-type-head {
+		font-size: 2rem;
+	}
+	.contact-basic {
+		font-size: 1.6rem;
+	}
+	.contact-container {
+		gap: 1.6rem;
+	}
+	.contact-info input {
+		padding: 0.4rem;
+	}
+	.schedule-legend p {
+		font-size: 1.2rem;
+	}
+	.schedule-legend {
+		justify-content: center;
+	}
+	.schedule {
+		margin-top: 0rem;
+	}
+	.dyscyplines-img {
+		height: 30rem;
+		width: 30rem;
+	}
+	.dyscyplines-wrestling .dyscyplines-text {
+		padding: 2rem 1rem;
+	}
+	.dyscyplines-boxing .dyscyplines-text {
+		padding: 2rem 1rem;
+	}
+	.dyscyplines-bjj .dyscyplines-text {
+		padding: 2rem 1rem;
+	}
+	.dyscyplines-boxing,
+	.dyscyplines-bjj,
+	.dyscyplines-wrestling {
+		display: flex;
+		flex-direction: column;
+	}
+	.about-us-img {
+		height: 30rem;
+	}
+	.about-us-text {
+		width: 80%;
+	}
+	.hero-about-btn,
+	.hero-price-btn {
+		font-size: 1.6rem;
+		padding: 1rem;
+	}
+}
+
+@media (max-width: 400px) {
+	.nav-logo {
+		font-size: 2.6rem;
+	}
+	.hero-about-btn,
+	.hero-price-btn {
+		font-size: 1.6rem;
+		padding: 1rem;
+	}
+	.hero-btn {
+		gap: 5rem;
+	}
+	.hero-text {
+		font-size: 2rem;
+		margin: 0 3rem 0 3rem;
+	}
+	.about-us-text {
+		width: 100%;
+	}
+	.about-us-img {
+		height: 20rem;
+		margin-right: 0rem;
+	}
+	.about-us {
+		margin-bottom: 0rem;
+		margin-left: 0rem;
+	}
+	.contact-container {
+		flex-direction: column;
+	}
+	.dyscyplines-container {
+		padding: 1rem;
+	}
+
+	.dyscyplines-img {
+		height: 25rem;
+		width: 25rem;
+	}
+	.schedule-day {
+		width: 90%;
+	}
+	.schedule-legend {
+		gap: 0;
+	}
+	.schedule-legend p {
+		font-size: 1.6rem;
+		padding: 0.2rem;
+	}
+	.prices-head {
+		padding: 0rem;
+	}
+	.prices-begginer,
+	.prices-advanced,
+	.prices-pro {
+		width: 70%;
+	}
+	.contact-head {
+		padding: 1rem;
+	}
+	.contact-basic {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-self: center;
+		align-items: center;
+	}
+	.contact-info {
+		align-items: center;
+	}
+}
